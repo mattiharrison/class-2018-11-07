@@ -8,7 +8,10 @@ library(tidyverse)
 library(stringr)
 library(fs)
 
+
 # 1. Read data/ex_926_I.csv into a tibble and provide a summary.
+
+ex_926 <- read_csv("data/ex_926_I.csv")
 
 # 2. Create a vector with all the file names in data/.
 
